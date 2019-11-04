@@ -1,0 +1,21 @@
+#include "COLOR.h"
+
+class CPlayer{
+public:
+    int r;
+    int c;
+    char screen_ch;
+    int health;
+    int score;
+    bool canJump;
+    COLORS screen_color;
+    CPlayer(char _ch, int _health, int _score, COLORS _color){
+        screen_ch = _ch;
+        health = _health;
+        score = _score;
+        screen_color = _color;
+        r = 0;
+        c = 0;
+        canJump = false;
+    }
+};
