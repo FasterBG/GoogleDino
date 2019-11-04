@@ -1,0 +1,15 @@
+#include "COLOR.h"
+
+class CObstacle{
+public:
+    char screen_ch;
+    int damage;
+    int value;
+    COLORS screen_color;
+    CObstacle(char _ch, int _damage,int _value, COLORS _color ){
+        screen_ch = _ch;
+        damage = _damage;
+        value = _value;
+        screen_color = _color;
+    }
+};
